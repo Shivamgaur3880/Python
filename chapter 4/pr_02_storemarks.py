@@ -1,0 +1,10 @@
+physics=int(input("enter marks of physics :"))
+chemistry=int(input("enter marks of chemistry :"))
+english=int(input("enter marks of english :"))
+comp_science=int(input("enter marks of comp_science :"))
+maths=int(input("enter marks of maths :"))
+biology=int(input("enter marks of biology :"))
+marks_list=[physics,chemistry,english,comp_science,maths,biology]
+marks_list.sort()
+print(marks_list)
+print(type(physics))

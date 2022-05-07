@@ -1,0 +1,6 @@
+a= open('z_sample.txt')
+data= a.readline()
+print(data)
+data= a.readline()
+print(data)
+a.close()
